@@ -1,0 +1,283 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Gentium Plus', serif;
+}
+/* Content part css start */
+#Content{
+    background: url(../Photos/Content-section-Background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    height: 600px;
+    
+}
+.content{
+    height: 350px;
+    width: 100%;
+    background-color: aqua;
+    background: linear-gradient(to bottom, #000, #c0bfbf) ;
+}
+ 
+#Content #navbarNav .navbar-nav .nav-item::before{
+ content: '';
+ top: -50px;
+ left: 0;
+ width: 42px;
+ height: 3px;
+ background-color: #fff;
+ margin: auto;
+ display: block;
+ transform: scale(0);
+}
+/* Header part css start */
+ 
+/* Header part css end */
+/* text part css start */
+.content-information{
+    color: #fff;
+    text-align: center;
+      margin-top: 50px;
+}
+.content-information img{
+    margin-top: 10px;
+}
+.content-information h3{
+    font-family: 'Yeseva One', serif;
+    font-size: 5.5rem;
+    
+    color: #f8f7f4;
+}
+.button-part button{
+    padding: 8px;
+    background-color: #c0bfbf;
+    color: #fff;
+    border: 2px solid #c0bfbf;
+    margin-top: 20px;
+} 
+.button-part button{
+    margin-right: 7px;
+    background-color: #5a5f61;
+    border: 2px solid #5a5f61;
+    font-size: 1.2rem;
+}
+.button-part button:hover{
+    background-color: rgba(232, 255, 240,0.4);
+    border: 2px solid white;
+}
+/* text part css end */
+/* Content part css end */
+
+/* About part css start */
+#about{
+    background: url(../Photos/about-backgroud.jpg);
+    height: 700px;
+}
+.About-cook{
+    text-align: center;
+    margin-top: 100px;
+}
+.About-cook [alt=""]{
+    margin-top: 20px;
+}
+.about-food-img{
+    margin-top: 100px;
+    margin-left: -100px;
+}
+/* About part css end */
+
+/* Ingradient part css start */
+#Ingradient{
+    background: url(../Photos/Ingradient-Background.jpg);
+    height: 700px;
+    object-fit: cover;
+    position: relative;
+}
+.ingradient-text{
+    height: 500px;
+    width: 450px;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 12%;
+    left: 55%;
+    color: #fff;
+    font-family: 'Yeseva One', serif;
+    text-align: center;
+}
+.ingradient-text h4{
+    font-size: 1.5rem;
+    margin-top: 100px;
+}
+.ingradient-text img{
+    margin-top: 10px;
+}
+.ingradient-text p{
+   
+    font-family: 'Lato', sans-serif;
+    text-align: justify;
+    padding: 25px 25px;
+
+}
+.ingradient-img{
+    display: flex;
+    justify-content: center;
+}
+/* Ingradient part css end */
+
+/* Menu part css start */
+#menu{
+    padding-top: 80px;
+    background: url(../Photos/menu-background.jpg);
+    height: 800px;
+}
+/* menu heading part css start */
+.menu-heading{
+    text-align: center;
+    color: #cc9900;
+    font-family: 'Yeseva One', serif;
+}
+/* menu heading part css end */
+
+/* menu food list part css start */
+.menu-food-list{
+    margin-top: 10px;    
+    color: #cc9900;
+}
+.menu-food-list .food-name{
+    float: left;
+    
+}
+.menu-food-list .food-prize{
+    float: right;
+}
+.menu-food-list p{
+ margin-bottom: -10px;
+ font-size: 21px;
+ font-weight: 600;
+}
+.food-list-underline{
+  padding: 0;
+}
+.food-description{
+    font-size: 14px;
+}
+.specal-menu{
+    border: 2px solid #cc9900;
+    padding: 0 10px;
+    position: relative;
+}
+.specal-text{
+    color: #fff;
+    background-color: #cc9900;
+    display: inline-block;
+    height: 25px;
+    width: 50px;
+    position: absolute;
+    top: -25px;
+    right: -2px;
+}
+/* menu food list part css end */
+/* Menu part css end */
+
+/* Guest review part css start */
+#Guest{
+    background: url(../Photos/guest-review-bg.jpg);
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.guest-review-text{
+    height: 450PX;
+    width: 55%;
+    background-color: rgba(0,0,0,0.5);
+    border: 2px solid #000;
+    text-align: center;
+    color: #fff;
+}
+.guest-review-text h2{
+    padding-top: 50px;
+}
+.guest-review-text p{
+  padding: 50px;
+}
+/* Guest review part css end */
+/* Reservation part css start */
+#reservation{
+    margin-top: 50px;
+}
+#reservation label{
+    color: #cc9900;
+}
+#reservation input{
+    border: 1.5px solid #cc9900;
+}
+
+.Book-now{
+    text-align: center;
+    padding: 0 20px;
+    margin-left: 135px;
+    margin-top: 20px;
+    background-color: #cc9900;
+}
+/* Reservation part css end */
+/* Footer part css start */
+#footer{
+    background-color: #000;
+}
+.footer-content{
+    padding-top: 25px;
+    
+}
+.foot-common-head{
+    text-align: center;
+    color: #fff;
+    font-family: 'Yeseva One', serif;
+    font-size: 16px;
+}
+.first-col-text{
+   color: #fff;
+   text-align: center;
+}
+.secend-col-text{
+    color: #fff;
+    text-align: center;
+    padding-top: 25px;
+}
+.third-col-text{
+     color: #fff;
+    text-align: center;
+    padding-top: 25px;
+}
+/* Footer part css end */
+/* Responsive part css start */
+@media (min-width: 576px) and (max-width:767){ 
+    .content-information h3{
+        font-family: 'Yeseva One', serif;
+        font-size: 3.5rem;
+        color: #f8f7f4;
+    }
+    .content-information {
+        color: #fff;
+        text-align: center;
+        margin-top: 0px;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { ... } */
+/* Responsive part css end */
